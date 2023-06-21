@@ -19,7 +19,9 @@ class Tictactoe:
     def game(self): 
         self.show_board() # call show_board function
 
-        while True:
+
+        # infinite while loop, unless the user types the word 'salir'
+        while True: 
             option = str(input(''))
             if option == 'salir':
                 break
