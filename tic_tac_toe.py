@@ -5,7 +5,7 @@ from collections import deque
 turno = deque(["0","X"])
 
 
-# variable que guarda una multi -lista
+# 1. variable que guarda una multi -lista *lista de listas
 tablero = [
     ['','',''],
     ['','',''],
@@ -20,7 +20,7 @@ def cambiar_turno():
 
 
 
-# función para imprimir el tablero
+# 2. función para imprimir el tablero
 def mostrar_tablero():
     print("") # deja un espacio en blanco
     # el loop for permite imprimir fila por fila del tablero
@@ -43,6 +43,8 @@ def juego():
         jugador = cambiar_turno()
         try:
             posicion_1 = procesar_posicion(posicion)
+        except:
+            pass
 
 
 def run():
