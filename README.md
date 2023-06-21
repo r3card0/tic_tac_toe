@@ -1,11 +1,13 @@
 # Tic Tac Toe
 
-Como crear el juego del gatos
+![tic](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/1200px-Tic_tac_toe.svg.png)
+
+Como crear el juego del gato
 
 [source](https://www.youtube.com/watch?v=w0LqU99RRy8)
 
-1. Crear una variable que contenga una multi lista
-2. Crear una funciòn que muestre el tablero y que imprima fila por fila del tablero.
+1. Crear una variable que contenga una multi lista. La multi-lista debe tener una estructura o grilla de 3x3. Esta forma imita el tablero del #gato#, (tic-tac-toe)
+2. Crear una función que muestre el tablero y que imprima fila por fila del tablero. Esto quiere decir que imprima de la variable tablero, fila por fila
 3. Crear una funciòn que mande llamar a la funcion *mostrar_tablero*. En esta función, implementar un ciclo *while* que permita que corra infinitavmente la función a menos de que se escriba la palabra *salir* o uno de los jugadores gane.
 4. importar la libreria: ```deque```, esta libreria permite rotar el turno de cada jugador.
 5. Crear un objeto deque, llamado *turno* que permitira el cambio de turno. Este objeto tendrá dos elementos que representarán los dos jugadores participantes. 
